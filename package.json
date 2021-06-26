@@ -1,0 +1,29 @@
+{
+  "name": "kurzlink",
+  "version": "1.0.0",
+  "description": "Links to and from KurzGedanke",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KurzGedanke",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "include-media": "^1.4.10",
+    "node-sass": "^6.0.1",
+    "normalize-scss": "^7.0.1",
+    "sass-rem": "^3.0.0"
+  }
+}
