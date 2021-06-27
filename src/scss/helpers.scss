@@ -1,4 +1,4 @@
 @import "node_modules/normalize-scss/sass/_normalize";
 @include normalize();
-@use '../node_modules/sass-rem' as rem;
+@import "node_modules/sass-rem/_rem";
 @import "helpers/dark";
