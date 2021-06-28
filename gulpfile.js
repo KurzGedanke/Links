@@ -17,11 +17,11 @@ sass.compiler = require('node-sass');
 var paths = {
   styles: {
     src: 'src/scss',
-    dest: 'static/css'
+    dest: 'public/static/css'
   },
   scripts: {
     src: 'src/js',
-    dest: 'static/js'
+    dest: 'public/static/js'
   }
 };
 
