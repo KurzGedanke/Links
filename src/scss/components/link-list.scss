@@ -13,10 +13,10 @@
     margin: rem(15px);
     min-height: rem(55px);
     text-align: center;
+    transition: border 0.25s ease-in-out;
 
     &:focus,
     &:hover {
-      transition: border-image-slice, border-image-source, border-width, border 0.25s ease-in-out;
       border-image-slice: 1;
       border-image-source: linear-gradient(135deg, rgba(86,177,70,1) 0%, rgba(215,192,46,1) 20%, rgba(208,103,45,1) 40%, rgba(204,36,51,1) 60%, rgba(163,69,138,1) 80%, rgba(54,70,138,1) 100%);
       border-width: 4px;
