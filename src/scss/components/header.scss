@@ -1,8 +1,7 @@
-@use "~sass-rem" as rem;
 header {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   flex-flow: column;
+  justify-content: center;
   margin-top: rem(24px);
 }
