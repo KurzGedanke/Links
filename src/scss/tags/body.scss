@@ -1,0 +1,14 @@
+body {
+  align-items: center;
+  background-color: $background-light;
+  color: $text-light;
+  display: flex;
+  flex-flow: column;
+  font-family: "Source Sans Pro";
+  justify-content: center;
+
+  @include dark(){
+  background-color: $background-dark;
+  color: $text-dark;
+  }
+}
